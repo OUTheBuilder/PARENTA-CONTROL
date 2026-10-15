@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">ParentGuard</string>
+    <string name="device_admin_label">ParentGuard Device Admin</string>
+    <string name="device_admin_description">Allows ParentGuard to lock the device remotely and enforce safety policies. This requires the device owner\'s knowledge and consent.</string>
+</resources>

@@ -1,0 +1,8 @@
+{
+  "//": "Download your REAL google-services.json from the Firebase console",
+  "//2": "(Project settings > General > Your apps > google-services.json)",
+  "//3": "and place it at app/google-services.json. Never commit real keys.",
+  "project_info": {
+    "project_id": "YOUR_PROJECT_ID"
+  }
+}

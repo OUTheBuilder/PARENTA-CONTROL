@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/background"
+    android:padding="20dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="This device is monitored"
+        android:textColor="@color/text"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="8dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="A parent on this account can see app usage, messages, location zones and lock this device. Enable the permissions below so monitoring works correctly."
+        android:textColor="@color/textSecondary"
+        android:layout_marginBottom="24dp" />
+
+    <TextView
+        android:id="@+id/deviceAdminStatus"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/text"
+        android:background="@color/card"
+        android:padding="14dp"
+        android:layout_marginBottom="12dp" />
+
+    <Button
+        android:id="@+id/enableDeviceAdminBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Enable Device Admin (remote lock)"
+        android:backgroundTint="@color/secondary"
+        android:textColor="@color/text"
+        android:layout_marginBottom="12dp" />
+
+    <Button
+        android:id="@+id/enableUsageAccessBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Enable Usage Access"
+        android:backgroundTint="@color/secondary"
+        android:textColor="@color/text"
+        android:layout_marginBottom="24dp" />
+
+    <Button
+        android:id="@+id/startMonitoringBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Start Monitoring"
+        android:backgroundTint="@color/primary"
+        android:textColor="@color/text" />
+
+</LinearLayout>
